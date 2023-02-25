@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ /* padding: 0 0;*/
+  background-image: url("img1.jpg");
+}
+
+.ButtonTodo{
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.ButtonTodoForm{
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.ButtonHome{
+  border-radius: 12px;
+  position: absolute;
+  top:5%;
+  left: 5%;
+  width: 100px;
+  transform: translateY(-50%);
+}
