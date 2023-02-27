@@ -7,7 +7,6 @@ import '../App.css'
 import {Link, Outlet} from "react-router-dom";
 
 const Home = () =>{
-    console.log('In Home')
     return (
         <div className = 'home'>
             <Link to="/todo"><button className='ButtonTodo'>Show Todo</button></Link>
